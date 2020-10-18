@@ -14,11 +14,22 @@
   color:medium;
 }
 
+//botoes index
+
 .mun{
   --background:#08C6AB;
+ 
+  right: 80px;
   
 }
 
+.but{
+  --border-color:#08C6AB;
+  --color:white;
+  
+  }
+
+//
 ion-header {
   
 
@@ -29,19 +40,16 @@ ion-header {
        width: 54px 25px 54px 60px;
   }
   ion-button{
-    font-size:18px;
+    font-size:16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
  
 }
 
-.but{
---border-color:#08C6AB;
---color:white;
 
-}
 #end{
   color:#989898;
+  text-align: center;
 }
 
 #texB{
@@ -49,3 +57,9 @@ ion-header {
   font-size:10px;
 }
 
+#fin{
+
+  
+  border:none;
+
+}

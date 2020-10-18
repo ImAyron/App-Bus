@@ -1,27 +1,34 @@
 .butao{
     --background:#DEE6E9;
     --color:black;
+    width: 45px;
+    right:30px;
 }
 .texto{
     text-align: bottom;
 }
-.pesquisa{
+#pesquisa{
     text-align: left;
-    border: medium solid;
+    border-radius: 10px;
+    border-width:80% ;
+    border-color: black;
   }
-#top{
-    text-align: right;
-    color:white;
-    
+#location{
+    position:absolute;
+    top: auto;
+    right: 10px;
 }
 #topo{
-    background: #006D77;
+    background:#006D77;
 }
 
-#volt{
-    text-align: left;
+#back{
+   position:absolute;
+   top: auto;
+   left: 20px; 
    text-decoration: none;
 }
+
 a{
     color:white;
 }
@@ -30,7 +37,13 @@ a{
     background:#EDF6F9;
     color:black;
 }
+ion-header{
 
-.center{
+   background:#006D77 ; 
+
+}
+.titulo{    
+    font-size: larger;
+    
     text-align: center;
   }

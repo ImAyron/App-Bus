@@ -24,3 +24,52 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.butao{
+    --background:#DEE6E9;
+    --color:black;
+    width: 45px;
+    right:30px;
+}
+.texto{
+    text-align: bottom;
+}
+#pesquisa{
+    text-align: left;
+    border-radius: 10px;
+    border-width:80% ;
+    border-color: black;
+  }
+#location{
+    position:absolute;
+    top: auto;
+    right: 10px;
+}
+#topo{
+    background:#006D77;
+}
+
+#back{
+   position:absolute;
+   top: auto;
+   left: 20px; 
+   text-decoration: none;
+}
+
+a{
+    color:white;
+}
+
+#tudo{
+    background:#EDF6F9;
+    color:black;
+    ion-header{
+        background:#006D77 ;
+    }
+}
+
+.titulo{    
+    font-size: larger;
+    
+    text-align: center;
+  }
